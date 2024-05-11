@@ -54,8 +54,8 @@ void maze::draw(sf::RenderWindow& window) {
                 window.draw(wall);
             }
             else if (maze_map[i][j] == 0) {
-                sf::CircleShape foodPoint(3);
-                foodPoint.setOrigin(3, 3);
+                sf::CircleShape foodPoint(2);
+                foodPoint.setOrigin(2, 2);
                 foodPoint.setFillColor(Color{255,182,170});
                 foodPoint.setPosition(j * CELL_SIZE+16, i * CELL_SIZE+16);
                 window.draw(foodPoint);

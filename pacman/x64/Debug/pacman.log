@@ -1,23 +1,2 @@
-﻿  ghost.cpp
-C:\Users\Compu Tech\Documents\Data structure\pacman\pacman\ghost.cpp(14,34): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\Compu Tech\Documents\Data structure\pacman\pacman\ghost.cpp(63,29): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
-C:\Users\Compu Tech\Documents\Data structure\pacman\pacman\ghost.cpp(64,29): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
-  maze.cpp
-C:\Users\Compu Tech\Documents\Data structure\pacman\pacman\maze.cpp(53,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Compu Tech\Documents\Data structure\pacman\pacman\maze.cpp(53,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Compu Tech\Documents\Data structure\pacman\pacman\maze.cpp(60,70): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Compu Tech\Documents\Data structure\pacman\pacman\maze.cpp(60,52): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Compu Tech\Documents\Data structure\pacman\pacman\maze.cpp(70,27): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Compu Tech\Documents\Data structure\pacman\pacman\maze.cpp(75,30): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
-  player.cpp
-  Source.cpp
-  Generating Code...
+﻿  player.cpp
   pacman.vcxproj -> C:\Users\Compu Tech\Documents\Data structure\pacman\x64\Debug\pacman.exe

@@ -30,7 +30,7 @@ int main()
 		ghost.draw(window);
 		player.checkCollision(maze);
 		player.updatePosition();
-		ghost.update(maze);
+		
 		// display position in the console
 		if (Mouse::isButtonPressed(Mouse::Left)) {
 			Vector2i pos = Mouse::getPosition(window);

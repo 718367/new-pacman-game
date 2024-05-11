@@ -16,12 +16,11 @@ player::player() : a(1), s(7), d(5), w(3), move_x(0), move_y(0) {
 }
 
 
-
 void player::checkWallCollision(maze& maze) {
 	float offset = 12;
 	// Calculate the grid position of the player's center in the maze
-	int playerGridX = static_cast<int>((rect.left + rect.width-35.0 / 2) / CELL_SIZE);
-	int playerGridY = static_cast<int>((rect.top + rect.height - 35.0 / 2) / CELL_SIZE);
+	int playerGridX = static_cast<int>((rect.left + rect.width -35/ 2) / CELL_SIZE);
+	int playerGridY = static_cast<int>((rect.top + rect.height -35/ 2) / CELL_SIZE);
 
 	// Calculate the grid position of the player's corners with an offset
 	 // Adjust the offset as needed
